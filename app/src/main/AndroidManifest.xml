@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.farizma.truthdare">
+    package="com.aayu.truthdare">
 
     <application
         android:allowBackup="true"
@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".StartActivity"
+        <activity android:name="com.aayu.truthdare.StartActivity"
             android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -18,12 +18,12 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".DareActivity"
+            android:name="com.aayu.truthdare.DareActivity"
             android:label="@string/dare"></activity>
         <activity
-            android:name=".TruthActivity"
+            android:name="com.aayu.truthdare.TruthActivity"
             android:label="@string/truth"></activity>
-        <activity android:name=".MainActivity"
+        <activity android:name="com.aayu.truthdare.MainActivity"
             android:screenOrientation="portrait"></activity>
     </application>
 

@@ -1,4 +1,4 @@
-package com.farizma.truthdare;
+package com.aayu.truthdare;
 
 import android.view.LayoutInflater;
 import android.view.View;

@@ -1,4 +1,4 @@
-package com.farizma.truthdare;
+package com.aayu.truthdare;
 
 public class TruthItem{
 

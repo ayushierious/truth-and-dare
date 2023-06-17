@@ -1,4 +1,4 @@
-package com.farizma.truthdare;
+package com.aayu.truthdare;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -49,6 +49,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onResume() {
         super.onResume();
         truthBtn.setEnabled(false);
+
         dareBtn.setEnabled(false);
         btn.setEnabled(true);
     }

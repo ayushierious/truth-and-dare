@@ -1,4 +1,4 @@
-package com.farizma.truthdare;
+package com.aayu.truthdare;
 
 import android.content.Context;
 
@@ -22,6 +22,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getInstrumentation().getTargetContext();
 
-        assertEquals("com.farizma.truthdare", appContext.getPackageName());
+        assertEquals("com.ranavik.truthdare", appContext.getPackageName());
     }
 }
